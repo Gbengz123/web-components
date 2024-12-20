@@ -62,6 +62,8 @@ function createDropdown() {
   dropdown.appendChild(dropDownIcon);
   dropdown.appendChild(dropdownContainer);
 
+  dropdownContainer.style.display = 'none';
+
   dropDownIcon.addEventListener('click', () => {
     if (dropdownContainer.style.display === 'none') {
       dropdownContainer.style.display = 'block';

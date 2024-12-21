@@ -1,5 +1,5 @@
 {
-  "name": "web-component",
+  "name": "danny-web-component",
   "version": "1.0.0",
   "description": "frontend template with webpack",
   "main": "src/index.js",
